@@ -35,7 +35,9 @@ header > p {
 }
 
 .meme > img {
-  width: 100%;
+  width: 800px;
+  display: flex;
+  margin: auto
 }
 
 .meme > h2 {
