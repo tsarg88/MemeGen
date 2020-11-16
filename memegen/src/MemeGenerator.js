@@ -40,6 +40,9 @@ class MemeGenerator extends React.Component {
             onChange={this.handleChange}
           />
         </form>
+        <div className="meme">
+          <img src={this.state.randomImg} alt="Random Image from API" />
+        </div>
       </div>
     );
   }
